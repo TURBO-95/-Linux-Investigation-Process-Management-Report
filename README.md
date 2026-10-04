@@ -1,36 +1,40 @@
-FINAL CHALLENGE — ADVANCED SEARCH & PROCESSES
+# 🛡️ Cybersecurity-Rootcare
 
-You have access to a Linux machine. Your goal is to perform a basic investigation and demonstrate your ability to search for files, inspect running processes, and manage background and foreground jobs.
+Welcome to my **Cybersecurity-Rootcare** repository! 
 
-Tasks:
+This repository serves as a portfolio of my practical tasks, investigations, and lab reports completed during my cybersecurity training at **Rootcare Academy**. 
 
-1. Find all .log files inside:
+## 📂 Repository Structure
 
-/var/log
+To keep everything organized, every task or challenge has been separated into its own dedicated directory. Inside each directory, you will find a detailed Markdown report (`task.md` or `README.md`), along with any relevant scripts, logs, or screenshots (in an `images/` folder) used to solve the challenge.
 
-2. Find files that have been modified within the last 24 hours.
+### 🗂️ Current Tasks
 
-3. Check whether any python3 process is currently running.
+Here is an overview of the tasks currently available in this repository:
 
-4. Identify the PID of the python3 process.
+| Status | Directory | Description | Skills Demonstrated |
+| :---: | :--- | :--- | :--- |
+| ✅ | [**`linux-investigation/`**](./linux-investigation/) | A comprehensive report on searching for system files, tracking modified logs, and managing background/foreground processes. | Linux CLI, Process Management, Job Control, `find`, `ps`, `grep` |
+| ⏳ | *More coming soon...* | Future tasks from Rootcare Academy will be added here. | - |
 
-5. Retrieve detailed information about the process.
+---
 
-6. Start a long-running command in the background.
+## 🔍 Highlighted Modules
 
-7. Check your running background jobs.
+### 🐧 1. Linux Investigation & Process Management
+**Path:** `linux-investigation/`
 
-8. Bring the job back to the foreground.
+This task demonstrates proficiency in navigating a Linux environment via the command line. Key objectives included:
+*   Locating specific `.log` files and filtering by modification time (`-mtime`).
+*   Hunting down specific running processes (e.g., `python3`) and identifying their PIDs.
+*   Mastering job control by manipulating execution states (Foreground, Background, Suspended) using commands like `&`, `jobs`, `fg`, `bg`, and `kill`.
 
-9. Suspend the process.
+---
 
-10. Resume the process in the background.
+## 🚀 How to Navigate This Repo
+1. Click on any of the directories listed in the table above.
+2. Read the `README.md` (or `task.md`) inside that folder to view the step-by-step investigation, command outputs, and screenshot evidence.
+3. Emojis and structured headers are used to make the reports easy to read and understand.
 
-11. Finally, terminate the process.
-
-Goal:
-
-Complete the investigation using Linux commands only and demonstrate that you understand the difference between processes, foreground jobs, and background jobs.
-
-Note: make report with commands and screenshots if u can 
-Recommend Notion
+---
+*Created as part of the cybersecurity training at [Rootcare Academy].*
